@@ -5,3 +5,4 @@ Spring Boot Project Seed 是一个基于Spring Boot & MyBatisPlus的种子项目
 - Spring Boot
 - MyBatisPlus
 - MyBatis PageHelper分页插件
+- Swagger
