@@ -1,2 +1,2 @@
 # springboot-template
-A standardized development template based on Spring Boot.
+一个基于Spring Boot快速构建API的项目
