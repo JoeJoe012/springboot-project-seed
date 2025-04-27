@@ -1,13 +1,8 @@
 package com.joejoe012.demo.util;
 
-import cn.hutool.core.bean.BeanUtil;
-import com.github.pagehelper.PageInfo;
-import com.joejoe012.demo.constant.ResultCode;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
-
-import java.util.List;
 
 @Getter
 @Setter
@@ -18,7 +13,7 @@ public class R<T> {
     private T data;
     private Long total;
 
-    public static <T> R<T> buildSuccess() {
+/*    public static <T> R<T> buildSuccess() {
         return new R<>(ResultCode.SUCCESS.getCode(), ResultCode.SUCCESS.getMessage(), null, null);
     }
     public static <T> R<T> buildSuccess(Integer code, String msg, T data) {
@@ -42,5 +37,5 @@ public class R<T> {
     }
     public static <T> R<T> buildError(Integer code, String msg, T data) {
         return new R<>(code, msg, data, null);
-    }
+    }*/
 }
