@@ -1,4 +1,4 @@
-package com.company.demo.handler;
+package com.company.demo.core;
 
 public class GlobalExceptionHandler {
 }
