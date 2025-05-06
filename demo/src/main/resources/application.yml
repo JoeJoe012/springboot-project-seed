@@ -1,13 +1,8 @@
-server:
-  port: 8080
 spring:
   application:
-    name: ApiProject-demo
-  datasource:
-    url: jdbc:mysql://localhost:3306/demo
-    username: root
-    password: root
-    driver-class-name: com.mysql.cj.jdbc.Driver
+    name: springboot-project-seed
+  profiles:
+    active: '@environment@'  #注意YAML配置文件需要加单引号，否则会报错
 
 mybatis-plus:
   configuration:

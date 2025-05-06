@@ -12,7 +12,7 @@ public class SwaggerConfig {
      * 配置swagger基本信息
      */
     @Bean
-    public OpenAPI openAPI() {
+    public OpenAPI springDocOpenAPI() {
         return new OpenAPI()
                 .info(new Info().title("Swagger 学习")
                         .description("Swagger 简单入门")
